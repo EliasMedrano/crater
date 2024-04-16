@@ -32,6 +32,14 @@ class CurrenciesTableSeeder extends Seeder
                 'decimal_separator' => '.',
             ],
             [
+                'name' => 'Córdoba',
+                'code' => 'NIO', 
+                'symbol' => 'C$', 
+                'precision' => '2', 
+                'thousand_separator' => ',', 
+                'decimal_separator' => '.', 
+            ],  
+            [
                 'name' => 'Euro',
                 'code' => 'EUR',
                 'symbol' => '€',
